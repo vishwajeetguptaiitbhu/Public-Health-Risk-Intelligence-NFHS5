@@ -279,3 +279,13 @@ The Power BI dashboard provides:
 # 📌 Project Outcome
 
 This project demonstrates how statistical modelling, demographic segmentation, SQL analytics, and business intelligence can be integrated into a single analytical workflow to support evidence-based public health decision-making. By combining rigorous statistical validation with interactive dashboards, the project transforms complex survey data into actionable insights for policymakers and healthcare stakeholders.
+
+## ⚠️ Disclaimer
+
+This repository is intended to demonstrate the end-to-end analytics workflow, statistical methodology, and business intelligence pipeline developed using the **National Family Health Survey (NFHS-5)** dataset.
+
+The original NFHS-5 microdata is **not included** in this repository. The dataset is owned and distributed by the **International Institute for Population Sciences (IIPS)** and its authorized partners under specific data access and usage policies. To comply with these terms, the raw data cannot be publicly redistributed through this repository.
+
+Only sample outputs, dashboard screenshots, analysis results, and project documentation are provided to illustrate the analytical workflow. Users who wish to reproduce this analysis should obtain the NFHS-5 dataset directly from the official data provider and follow the applicable licensing and data-use requirements.
+
+This repository is shared solely for educational, research, and portfolio purposes.
