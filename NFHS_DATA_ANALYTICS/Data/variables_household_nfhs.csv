@@ -1,0 +1,531 @@
+,Column_Name,Column_Label,values
+0,HHID,Case Identification,
+1,HVIDX,Line number,
+2,HV000,Country code and phase,
+3,HV001,Cluster number,
+4,HV002,Household number,
+5,HV003,Respondent's line number (answering Household questionnaire),{0.0: 'Incomplete household'}
+6,HV004,Ultimate area unit,
+7,HV005,Household sample weight (6 decimals),
+8,HV006,Month of interview,
+9,HV007,Year of interview,
+10,HV008,Date of interview (CMC),
+11,HV008A,Date of interview Century Day Code (CDC),
+12,HV009,Number of household members,
+13,HV010,Number of eligible women in household,
+14,HV011,Number of eligible men in household,
+15,HV012,Number of de jure members,
+16,HV013,Number of de facto members,
+17,HV014,Number of children 5 and under (de jure),
+18,HV015,Result of household interview,"{1.0: 'Completed', 2.0: 'No Household member/no competent member at home', 3.0: 'Entire Household absent for extended period of time', 4.0: 'Postponed', 5.0: 'Refused', 6.0: 'Dwelling vacant or address not a dwelling', 7.0: 'Dwelling destroyed', 8.0: 'Dwelling not found', 9.0: 'Other'}"
+19,HV016,Day of interview,
+20,HV017,Number of visits,
+21,HV018,Interviewer identification,
+22,HV019,NA - Keyer identification,
+23,HV020,Ever-married sample,"{0.0: 'All woman sample', 1.0: 'Ever married sample'}"
+24,HV021,Primary sampling unit,
+25,HV022,Sample strata for sampling errors,
+26,HV023,Stratification used in sample design,
+27,HV024,State,"{1.0: 'Jammu & Kashmir', 2.0: 'Himachal Pradesh', 3.0: 'Punjab', 4.0: 'Chandigarh', 5.0: 'Uttarakhand', 6.0: 'Haryana', 7.0: 'Nct Of Delhi', 8.0: 'Rajasthan', 9.0: 'Uttar Pradesh', 10.0: 'Bihar', 11.0: 'Sikkim', 12.0: 'Arunachal Pradesh', 13.0: 'Nagaland', 14.0: 'Manipur', 15.0: 'Mizoram', 16.0: 'Tripura', 17.0: 'Meghalaya', 18.0: 'Assam', 19.0: 'West Bengal', 20.0: 'Jharkhand', 21.0: 'Odisha', 22.0: 'Chhattisgarh', 23.0: 'Madhya Pradesh', 24.0: 'Gujarat', 25.0: 'Dadra & Nagar Haveli And Daman & Diu', 27.0: 'Maharashtra', 28.0: 'Andhra Pradesh', 29.0: 'Karnataka', 30.0: 'Goa', 31.0: 'Lakshadweep', 32.0: 'Kerala', 33.0: 'Tamil Nadu', 34.0: 'Puducherry', 35.0: 'Andaman & Nicobar Islands', 36.0: 'Telangana', 37.0: 'Ladakh'}"
+28,HV025,Type of place of residence,"{1.0: 'Urban', 2.0: 'Rural'}"
+29,HV026,NA - Place of residence,"{0.0: 'Capital, large city', 1.0: 'Small city', 2.0: 'Town', 3.0: 'Countryside'}"
+30,HV027,Household selected for male interview,"{0.0: 'Not selected', 1.0: ""Men's survey"", 2.0: ""Husband's survey""}"
+31,HV028,Household weight for male subsample (6 decimals),
+32,HV030,Field supervisor,
+33,HV031,NA - Field editor,
+34,HV032,NA - Office editor,
+35,HV035,Number of eligible children for height and weight,
+36,HV040,Cluster altitude in meters,
+37,HV041,Total adults measured,
+38,HV042,Household selected for hemoglobin,"{0.0: 'Not selected', 1.0: 'Selected'}"
+39,HV044,Household selected for Domestic Violence module,"{0.0: 'Household not selected', 1.0: 'Household selected'}"
+40,HV045A,Language of questionnaire,"{1.0: 'ASSAMESE', 2.0: 'BENGALI', 3.0: 'GUJARATI', 4.0: 'HINDI', 5.0: 'KANNADA', 6.0: 'KASHMIRI', 7.0: 'KONKANI', 8.0: 'MALAYALAM', 9.0: 'MANIPURI', 10.0: 'MARATHI', 11.0: 'NEPALI', 12.0: 'ORIYA', 13.0: 'PUNJABI', 14.0: 'SINDHI', 15.0: 'TAMIL', 16.0: 'TELUGU', 17.0: 'URDU', 18.0: 'ENGLISH', 19.0: 'GARO', 20.0: 'KHASI', 21.0: 'MIZO'}"
+41,HV045B,Language of interview,"{1.0: 'ASSAMESE', 2.0: 'BENGALI', 3.0: 'GUJARATI', 4.0: 'HINDI', 5.0: 'KANNADA', 6.0: 'KASHMIRI', 7.0: 'KONKANI', 8.0: 'MALAYALAM', 9.0: 'MANIPURI', 10.0: 'MARATHI', 11.0: 'NEPALI', 12.0: 'ORIYA', 13.0: 'PUNJABI', 14.0: 'SINDHI', 15.0: 'TAMIL', 16.0: 'TELUGU', 17.0: 'URDU', 18.0: 'ENGLISH', 19.0: 'GARO', 20.0: 'KHASI', 21.0: 'MIZO', 96.0: 'Other'}"
+42,HV045C,Native language of respondent,"{1.0: 'ASSAMESE', 2.0: 'BENGALI', 3.0: 'GUJARATI', 4.0: 'HINDI', 5.0: 'KANNADA', 6.0: 'KASHMIRI', 7.0: 'KONKANI', 8.0: 'MALAYALAM', 9.0: 'MANIPURI', 10.0: 'MARATHI', 11.0: 'NEPALI', 12.0: 'ORIYA', 13.0: 'PUNJABI', 14.0: 'SINDHI', 15.0: 'TAMIL', 16.0: 'TELUGU', 17.0: 'URDU', 18.0: 'ENGLISH', 19.0: 'GARO', 20.0: 'KHASI', 21.0: 'MIZO', 96.0: 'Other'}"
+43,HV046,Translator used,"{0.0: 'No', 1.0: 'Yes'}"
+44,HV801,Time interview started (hhmm - 24 hour clock),
+45,HV802,Time interview ended (hhmm - 24 hour clock),
+46,HV803,Length of interview in minutes,"{95.0: '95+', 96.0: '2+ visits', 97.0: 'Inconsistent'}"
+47,HV804,Number of visits for biomarker,
+48,HV807D,Day of biomarker visit,
+49,HV807M,Month of biomarker visit,
+50,HV807Y,Year of biomarker visit,
+51,HV807C,Date of biomarker (CMC),
+52,HV807A,Date of biomarker Century Day Code (CDC),
+53,HV201,Source of drinking water,"{10.0: 'PIPED WATER', 11.0: 'Piped into dwelling', 12.0: 'Piped to yard/plot', 13.0: 'Piped to neighbor', 14.0: 'Public tap/standpipe', 20.0: 'TUBE WELL WATER', 21.0: 'Tube well or borehole', 30.0: 'DUG WELL (OPEN/PROTECTED)', 31.0: 'Protected well', 32.0: 'Unprotected well', 40.0: 'SURFACE FROM SPRING', 41.0: 'Protected spring', 42.0: 'Unprotected spring', 43.0: 'River/dam/lake/ponds/stream/canal/irrigation channel', 51.0: 'Rainwater', 61.0: 'Tanker truck', 62.0: 'Cart with small tank', 71.0: 'Bottled water', 92.0: 'Community ro plant', 96.0: 'Other'}"
+54,HV202,NA - Source of non-drinking water,"{10.0: 'PIPED WATER', 11.0: 'Piped into dwelling', 12.0: 'Piped to yard/plot', 13.0: 'Piped to neighbor', 14.0: 'Public tap/standpipe', 20.0: 'TUBE WELL WATER', 21.0: 'Tube well or borehole', 30.0: 'DUG WELL (OPEN/PROTECTED)', 31.0: 'Protected well', 32.0: 'Unprotected well', 40.0: 'SURFACE FROM SPRING', 41.0: 'Protected spring', 42.0: 'Unprotected spring', 43.0: 'River/dam/lake/ponds/stream/canal/irrigation channel', 51.0: 'Rainwater', 61.0: 'Tanker truck', 62.0: 'Cart with small tank', 71.0: 'Bottled water', 96.0: 'Other'}"
+55,HV201A,NA - Water not available for at least a day last two weeks,"{0.0: 'No, not interrupted for a full day', 1.0: 'Yes, interrupted for a full day or more', 8.0: ""Don't know""}"
+56,HV204,Time to get to water source (minutes),"{996.0: 'On premises', 998.0: ""Don't know""}"
+57,HV205,Type of toilet facility,"{10.0: 'FLUSH TOILET', 11.0: 'Flush to piped sewer system', 12.0: 'Flush to septic tank', 13.0: 'Flush to pit latrine', 14.0: 'Flush to somewhere else', 15.0: ""Flush, don't know where"", 20.0: 'PIT TOILET LATRINE', 21.0: 'Ventilated Improved Pit latrine (VIP)', 22.0: 'Pit latrine with slab', 23.0: 'Pit latrine without slab/open pit', 30.0: 'NO FACILITY', 31.0: 'No facility/bush/field', 41.0: 'Composting toilet', 42.0: 'Bucket toilet', 43.0: 'Hanging toilet/latrine', 44.0: 'Dry toilet', 96.0: 'Other'}"
+58,HV206,Has electricity,"{0.0: 'No', 1.0: 'Yes'}"
+59,HV207,Has radio,"{0.0: 'No', 1.0: 'Yes'}"
+60,HV208,Has television,"{0.0: 'No', 1.0: 'Yes'}"
+61,HV209,Has refrigerator,"{0.0: 'No', 1.0: 'Yes'}"
+62,HV210,Has bicycle,"{0.0: 'No', 1.0: 'Yes'}"
+63,HV211,Has motorcycle/scooter,"{0.0: 'No', 1.0: 'Yes'}"
+64,HV212,Has car/truck,"{0.0: 'No', 1.0: 'Yes'}"
+65,HV213,Main floor material,"{11.0: 'Mud / clay / earth', 12.0: 'Sand', 13.0: 'Dung', 21.0: 'Raw wood planks', 22.0: 'Palm / bamboo', 23.0: 'Brick', 24.0: 'Stone', 31.0: 'Parquet / polished wood', 32.0: 'Vinyl / asphalt', 33.0: 'Ceramic tiles', 34.0: 'Cement', 35.0: 'Carpet', 36.0: 'Polished stone / marble / granite', 96.0: 'Other'}"
+66,HV214,Main wall material,"{11.0: 'No walls', 12.0: 'Cane / palm / trunks / bamboo', 13.0: 'Mud', 14.0: 'Grass / reeds / thatch', 21.0: 'Bamboo with mud', 22.0: 'Stone with mud', 23.0: 'Plywood', 24.0: 'Cardboard', 25.0: 'Unburnt brick', 26.0: 'Raw wood / reused wood', 31.0: 'Cement / concrete', 32.0: 'Stone with lime / cement', 33.0: 'Burnt bricks', 34.0: 'Cement blocks', 35.0: 'Wood planks / shingles', 36.0: 'GI/  metal / asbestos sheets', 96.0: 'Other'}"
+67,HV215,Main roof material,"{11.0: 'No roof', 12.0: 'Thatch / palm leaf / reed / grass', 13.0: 'Mud', 14.0: 'Sod / mud and grass mixture', 15.0: 'Plastic / polythene sheeting', 21.0: 'Rustic mat', 22.0: 'Palm / bamboo', 23.0: 'Raw wood planks / timber', 24.0: 'Unburnt brick', 25.0: 'Loosely packed stone', 31.0: 'Metal / GI', 32.0: 'Wood', 33.0: 'Calamine / cement fiber', 34.0: 'Asbestos sheets', 35.0: 'RCC / RBC / cement / concrete', 36.0: 'Roofing shingles', 37.0: 'Tiles', 38.0: 'Slate', 39.0: 'Burnt brick', 96.0: 'Other'}"
+68,HV216,Number of rooms used for sleeping,{25.0: '25+'}
+69,HV217,Relationship structure,"{0.0: 'No adults', 1.0: 'One adult', 2.0: 'Two adults, opposite sex', 3.0: 'Two adults, same sex', 4.0: 'Three+ related adults', 5.0: 'Unrelated adults'}"
+70,HV218,Line number of head of household,
+71,HV219,Sex of head of household,"{1.0: 'Male', 2.0: 'Female', 3.0: 'Transgender'}"
+72,HV220,Age of head of household,"{97.0: '97+', 98.0: ""Don't know""}"
+73,HV221,Has telephone (land-line),"{0.0: 'No', 1.0: 'Yes'}"
+74,HV225,Share toilet with other households,"{0.0: 'No', 1.0: 'Yes'}"
+75,HV226,Type of cooking fuel,"{1.0: 'Electricity', 2.0: 'LPG', 3.0: 'Natural gas', 4.0: 'Biogas', 5.0: 'Kerosene', 6.0: 'Coal, lignite', 7.0: 'Charcoal', 8.0: 'Wood', 9.0: 'Straw/shrubs/grass', 10.0: 'Agricultural crop', 11.0: 'Animal dung', 95.0: 'No food cooked in house', 96.0: 'Other'}"
+76,HV227,Has mosquito bed net for sleeping,"{0.0: 'No', 1.0: 'Yes'}"
+77,HV228,Children under 5 slept under mosquito bed net last night,"{0.0: 'No', 1.0: 'All children', 2.0: 'Some children', 3.0: 'No net in household'}"
+78,HV230A,Place where household members wash their hands,"{1.0: 'Observed', 3.0: 'Not observed: not in dwelling', 4.0: 'Not observed: no permission to see', 5.0: 'Not observed: other reason'}"
+79,HV230B,Presence of water at hand washing place,"{0.0: 'Water not available', 1.0: 'Water is available'}"
+80,HV232,Items present: Soap or detergent,"{0.0: 'No', 1.0: 'Yes'}"
+81,HV232B,"Items present: Ash, mud, sand","{0.0: 'No', 1.0: 'Yes'}"
+82,HV232C,NA - Items present: CS,"{0.0: 'No', 1.0: 'Yes'}"
+83,HV232D,NA - Items present: CS,"{0.0: 'No', 1.0: 'Yes'}"
+84,HV232E,NA - Items present: CS,"{0.0: 'No', 1.0: 'Yes'}"
+85,HV232Y,Items present: None,"{0.0: 'No', 1.0: 'Yes: no cleansing agent observed'}"
+86,HV234,NA - Result of salt test for iodine (PPM),"{0.0: '0 PPM (no iodine)', 7.0: 'Below 15 PPM', 15.0: '15 PPM and above', 30.0: '30 PPM', 994.0: 'Salt not tested', 995.0: 'No salt in household'}"
+87,HV234A,Result of salt test for iodine,"{0.0: 'No iodine', 1.0: 'Iodine present', 3.0: 'No salt in household', 6.0: 'Salt not tested'}"
+88,HV235,Location of source for water,"{1.0: 'In own dwelling', 2.0: 'In own yard/plot', 3.0: 'Elsewhere'}"
+89,HV236,Person fetching water,"{1.0: 'Adult woman', 2.0: 'Adult man', 3.0: 'Female child under 15 years old', 4.0: 'Male child under 15 years old', 6.0: 'Other'}"
+90,HV237,Anything done to water to make safe to drink,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+91,HV237A,Water usually treated by: boil,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+92,HV237B,Water usually treated by: add bleach/chlorine,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+93,HV237C,Water usually treated by: strain through a cloth,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+94,HV237D,Water usually treated by: use water filter,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+95,HV237E,Water usually treated by: solar disinfection,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+96,HV237F,Water usually treated by: let it stand and settle,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+97,HV237G,Water usually treated by: use alum,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+98,HV237H,Water usually treated by: electronic purifier,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+99,HV237I,NA - Water usually treated by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+100,HV237J,NA - Water usually treated by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+101,HV237K,NA - Water usually treated by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+102,HV237X,Water usually treated by: other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+103,HV237Z,Water usually treated by: don't know,"{0.0: 'No', 1.0: ""Yes: don't know what is done to water"", 8.0: ""Don't know""}"
+104,HV238,Number of households sharing toilet,"{95.0: '10 or more households', 98.0: ""Don't know""}"
+105,HV238A,Location of toilet facility,"{1.0: 'In own dwelling', 2.0: 'In own yard/plot', 3.0: 'Elsewhere'}"
+106,HV239,NA - Food cooked on stove or open fire,"{1.0: 'Open fire', 2.0: 'Open stove', 3.0: 'Closed stove with chimney', 6.0: 'Other'}"
+107,HV240,"NA - Household has a chimney, hood or neither","{0.0: 'Neither chimney or hood', 1.0: 'Chimney', 2.0: 'Hood'}"
+108,HV241,Food cooked in the house/ separate building/ outdoors,"{1.0: 'In the house', 2.0: 'In a separate building', 3.0: 'Outdoors', 6.0: 'Other'}"
+109,HV242,Household has separate room used as kitchen,"{0.0: 'No', 1.0: 'Yes'}"
+110,HV243A,Has mobile telephone,"{0.0: 'No', 1.0: 'Yes'}"
+111,HV243B,Has watch,"{0.0: 'No', 1.0: 'Yes'}"
+112,HV243C,Has animal-drawn cart,"{0.0: 'No', 1.0: 'Yes'}"
+113,HV243D,NA - Has boat with a motor,"{0.0: 'No', 1.0: 'Yes'}"
+114,HV243E,Has a computer,"{0.0: 'No', 1.0: 'Yes'}"
+115,HV244,Owns land usable for agriculture,"{0.0: 'No', 1.0: 'Yes'}"
+116,HV245,Hectares of agricultural land (1 decimal),"{950.0: '95 or more', 998.0: 'Unknown'}"
+117,HV246,"Owns livestock, herds or farm animals","{0.0: 'No', 1.0: 'Yes'}"
+118,HV246A,NA - Owns cattle,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+119,HV246B,NA - Owns cows/ bulls,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+120,HV246C,NA - Owns horses/ donkeys/ mules,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+121,HV246D,NA - Owns goats,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+122,HV246E,NA - Owns sheep,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+123,HV246F,NA - Owns chickens/poultry,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+124,HV246G,NA - Owns camels,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+125,HV246H,NA - Owns goats or sheep,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+126,HV246I,NA - Owns pigs,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+127,HV246J,NA - Owns CS,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+128,HV246K,NA - Owns CS,"{0.0: 'None', 95.0: '95 or more', 98.0: 'Unknown'}"
+129,HV247,Has bank account,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+130,HV252,Frequency household members smoke inside the house,"{0.0: 'Never', 1.0: 'Daily', 2.0: 'Weekly', 3.0: 'Monthly', 4.0: 'Less than once a month'}"
+131,HV253,NA - Has dwelling been sprayed against mosquitoes in last 12 months,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+132,HV253A,NA - Dwelling sprayed by: government worker/program,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+133,HV253B,NA - Dwelling sprayed by: private company,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+134,HV253C,NA - Dwelling sprayed by: NGO,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+135,HV253D,NA - Dwelling sprayed by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+136,HV253E,NA - Dwelling sprayed by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+137,HV253F,NA - Dwelling sprayed by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+138,HV253G,NA - Dwelling sprayed by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+139,HV253H,NA - Dwelling sprayed by: CS,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+140,HV253X,NA - Dwelling sprayed by: other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+141,HV253Z,NA - Dwelling sprayed by: don't know,"{0.0: 'No', 1.0: ""Yes: don't know who sprayed the dwelling"", 8.0: ""Don't know if it was sprayed""}"
+142,HV270,Wealth index combined,"{1.0: 'Poorest', 2.0: 'Poorer', 3.0: 'Middle', 4.0: 'Richer', 5.0: 'Richest'}"
+143,HV271,Wealth index factor score combined (5 decimals),
+144,HV270A,Wealth index for urban/rural,"{1.0: 'Poorest', 2.0: 'Poorer', 3.0: 'Middle', 4.0: 'Richer', 5.0: 'Richest'}"
+145,HV271A,Wealth index factor score for urban/rural (5 decimals),
+146,HML1,Number of mosquito bed nets,"{98.0: ""Don't know""}"
+147,HML1A,Number of mosquito bed nets with specific information,
+148,HML2,Number of children under mosquito bed net previous night,
+149,CHL0,NA - Number of de-jure children 5-14 for child labor module,
+150,SHPHASE,Survey phase,"{1.0: 'Phase 1', 2.0: 'Phase 2'}"
+151,SHDIST,District number,"{1.0: 'Kupwara', 2.0: 'Badgam', 3.0: 'Leh(Ladakh)', 4.0: 'Kargil', 5.0: 'Punch', 6.0: 'Rajouri', 7.0: 'Kathua', 8.0: 'Baramula', 9.0: 'Bandipore', 10.0: 'Srinagar', 11.0: 'Ganderbal', 12.0: 'Pulwama', 13.0: 'Shupiyan', 14.0: 'Anantnag', 15.0: 'Kulgam', 16.0: 'Doda', 17.0: 'Ramban', 18.0: 'Kishtwar', 19.0: 'Udhampur', 20.0: 'Reasi', 21.0: 'Jammu', 22.0: 'Samba', 23.0: 'Chamba', 24.0: 'Kangra', 25.0: 'Lahul & Spiti', 26.0: 'Kullu', 27.0: 'Mandi', 28.0: 'Hamirpur', 29.0: 'Una', 30.0: 'Bilaspur', 31.0: 'Solan', 32.0: 'Sirmaur', 33.0: 'Shimla', 34.0: 'Kinnaur', 36.0: 'Kapurthala', 37.0: 'Jalandhar', 38.0: 'Hoshiarpur', 39.0: 'Shahid Bhagat Singh Nagar', 40.0: 'Fatehgarh Sahib', 41.0: 'Ludhiana', 42.0: 'Moga', 44.0: 'Muktsar', 45.0: 'Faridkot', 46.0: 'Bathinda', 47.0: 'Mansa', 48.0: 'Patiala', 49.0: 'Amritsar', 50.0: 'Tarn Taran', 51.0: 'Rupnagar', 52.0: 'Sahibzada Ajit Singh Nagar', 53.0: 'Sangrur', 54.0: 'Barnala', 55.0: 'Chandigarh', 56.0: 'Uttarkashi', 57.0: 'Chamoli', 58.0: 'Rudraprayag', 59.0: 'Tehri Garhwal', 60.0: 'Dehradun', 61.0: 'Garhwal', 62.0: 'Pithoragarh', 63.0: 'Bageshwar', 64.0: 'Almora', 65.0: 'Champawat', 66.0: 'Nainital', 67.0: 'Udham Singh Nagar', 68.0: 'Hardwar', 69.0: 'Panchkula', 70.0: 'Ambala', 71.0: 'Yamunanagar', 72.0: 'Kurukshetra', 73.0: 'Kaithal', 74.0: 'Karnal', 75.0: 'Panipat', 76.0: 'Sonipat', 77.0: 'Jind', 78.0: 'Fatehabad', 79.0: 'Sirsa', 80.0: 'Hisar', 82.0: 'Rohtak', 83.0: 'Jhajjar', 84.0: 'Mahendragarh', 85.0: 'Rewari', 86.0: 'Gurgaon', 87.0: 'Mewat', 88.0: 'Faridabad', 89.0: 'Palwal', 99.0: 'Ganganagar', 100.0: 'Hanumangarh', 101.0: 'Bikaner', 102.0: 'Churu', 103.0: 'Jhunjhunun', 104.0: 'Alwar', 105.0: 'Bharatpur', 106.0: 'Dhaulpur', 107.0: 'Karauli', 108.0: 'Sawai Madhopur', 109.0: 'Dausa', 110.0: 'Jaipur', 111.0: 'Sikar', 112.0: 'Nagaur', 113.0: 'Jodhpur', 114.0: 'Jaisalmer', 115.0: 'Barmer', 116.0: 'Jalor', 117.0: 'Sirohi', 118.0: 'Pali', 119.0: 'Ajmer', 120.0: 'Tonk', 121.0: 'Bundi', 122.0: 'Bhilwara', 123.0: 'Rajsamand', 124.0: 'Dungarpur', 125.0: 'Banswara', 126.0: 'Chittaurgarh', 127.0: 'Kota', 128.0: 'Baran', 129.0: 'Jhalawar', 130.0: 'Udaipur', 131.0: 'Pratapgarh', 132.0: 'Saharanpur', 134.0: 'Bijnor', 136.0: 'Rampur', 137.0: 'Jyotiba Phule Nagar', 138.0: 'Meerut', 139.0: 'Baghpat', 141.0: 'Gautam Buddha Nagar', 142.0: 'Bulandshahr', 143.0: 'Aligarh', 144.0: 'Mahamaya Nagar', 145.0: 'Mathura', 146.0: 'Agra', 147.0: 'Firozabad', 148.0: 'Mainpuri', 150.0: 'Bareilly', 151.0: 'Pilibhit', 152.0: 'Shahjahanpur', 153.0: 'Kheri', 154.0: 'Sitapur', 155.0: 'Hardoi', 156.0: 'Unnao', 157.0: 'Lucknow', 159.0: 'Farrukhabad', 160.0: 'Kannauj', 161.0: 'Etawah', 162.0: 'Auraiya', 163.0: 'Kanpur Dehat', 164.0: 'Kanpur Nagar', 165.0: 'Jalaun', 166.0: 'Jhansi', 167.0: 'Lalitpur', 168.0: 'Hamirpur', 169.0: 'Mahoba', 170.0: 'Banda', 171.0: 'Chitrakoot', 172.0: 'Fatehpur', 173.0: 'Pratapgarh', 174.0: 'Kaushambi', 175.0: 'Allahabad', 176.0: 'Bara Banki', 177.0: 'Faizabad', 178.0: 'Ambedkar Nagar', 180.0: 'Bahraich', 181.0: 'Shrawasti', 182.0: 'Balrampur', 183.0: 'Gonda', 184.0: 'Siddharthnagar', 185.0: 'Basti', 186.0: 'Sant Kabir Nagar', 187.0: 'Mahrajganj', 188.0: 'Gorakhpur', 189.0: 'Kushinagar', 190.0: 'Deoria', 191.0: 'Azamgarh', 192.0: 'Mau', 193.0: 'Ballia', 194.0: 'Jaunpur', 195.0: 'Ghazipur', 196.0: 'Chandauli', 197.0: 'Varanasi', 198.0: 'Sant Ravidas Nagar (Bhadohi)', 199.0: 'Mirzapur', 200.0: 'Sonbhadra', 201.0: 'Etah', 202.0: 'Kanshiram Nagar', 203.0: 'Pashchim Champaran', 204.0: 'Purba Champaran', 205.0: 'Sheohar', 206.0: 'Sitamarhi', 207.0: 'Madhubani', 208.0: 'Supaul', 209.0: 'Araria', 210.0: 'Kishanganj', 211.0: 'Purnia', 212.0: 'Katihar', 213.0: 'Madhepura', 214.0: 'Saharsa', 215.0: 'Darbhanga', 216.0: 'Muzaffarpur', 217.0: 'Gopalganj', 218.0: 'Siwan', 219.0: 'Saran', 220.0: 'Vaishali', 221.0: 'Samastipur', 222.0: 'Begusarai', 223.0: 'Khagaria', 224.0: 'Bhagalpur', 225.0: 'Banka', 226.0: 'Munger', 227.0: 'Lakhisarai', 228.0: 'Sheikhpura', 229.0: 'Nalanda', 230.0: 'Patna', 231.0: 'Bhojpur', 232.0: 'Buxar', 233.0: 'Kaimur (Bhabua)', 234.0: 'Rohtas', 235.0: 'Aurangabad', 236.0: 'Gaya', 237.0: 'Nawada', 238.0: 'Jamui', 239.0: 'Jehanabad', 240.0: 'Arwal', 241.0: 'North  District', 242.0: 'West District', 243.0: 'South District', 244.0: 'East District', 245.0: 'Tawang', 246.0: 'West Kameng', 247.0: 'East Kameng', 248.0: 'Papum Pare', 249.0: 'Upper Subansiri', 252.0: 'Upper Siang', 253.0: 'Changlang', 255.0: 'Lower Subansiri', 257.0: 'Dibang Valley', 258.0: 'Lower Dibang Valley', 260.0: 'Anjaw', 261.0: 'Mon', 262.0: 'Mokokchung', 263.0: 'Zunheboto', 264.0: 'Wokha', 265.0: 'Dimapur', 266.0: 'Phek', 267.0: 'Tuensang', 268.0: 'Longleng', 269.0: 'Kiphire', 270.0: 'Kohima', 271.0: 'Peren', 272.0: 'Senapati', 273.0: 'Tamenglong', 274.0: 'Churachandpur', 275.0: 'Bishnupur', 276.0: 'Thoubal', 277.0: 'Imphal West', 278.0: 'Imphal East', 279.0: 'Ukhrul', 280.0: 'Chandel', 281.0: 'Mamit', 282.0: 'Kolasib', 283.0: 'Aizawl', 284.0: 'Champhai', 285.0: 'Serchhip', 286.0: 'Lunglei', 287.0: 'Lawngtlai', 288.0: 'Saiha', 291.0: 'Dhalai', 295.0: 'South Garo Hills', 297.0: 'Ribhoi', 298.0: 'East Khasi Hills', 300.0: 'Kokrajhar', 302.0: 'Goalpara', 303.0: 'Barpeta', 304.0: 'Morigaon', 307.0: 'Lakhimpur', 308.0: 'Dhemaji', 309.0: 'Tinsukia', 310.0: 'Dibrugarh', 313.0: 'Golaghat', 315.0: 'Dima Hasao', 316.0: 'Cachar', 317.0: 'Karimganj', 318.0: 'Hailakandi', 319.0: 'Bongaigaon', 320.0: 'Chirang', 321.0: 'Kamrup', 322.0: 'Kamrup Metropolitan', 323.0: 'Nalbari', 324.0: 'Baksa', 325.0: 'Darrang', 326.0: 'Udalguri', 327.0: 'Darjiling', 328.0: 'Jalpaiguri', 329.0: 'Koch Bihar', 330.0: 'Uttar Dinajpur', 331.0: 'Dakshin Dinajpur', 332.0: 'Maldah', 333.0: 'Murshidabad', 334.0: 'Birbhum', 336.0: 'Nadia', 337.0: 'North Twenty Four Parganas', 338.0: 'Hugli', 339.0: 'Bankura', 340.0: 'Puruliya', 341.0: 'Haora', 342.0: 'Kolkata', 343.0: 'South Twenty Four Parganas', 344.0: 'Paschim Medinipur', 345.0: 'Purba Medinipur', 346.0: 'Garhwa', 347.0: 'Chatra', 348.0: 'Kodarma', 349.0: 'Giridih', 350.0: 'Deoghar', 351.0: 'Godda', 352.0: 'Sahibganj', 353.0: 'Pakur', 354.0: 'Dhanbad', 355.0: 'Bokaro', 356.0: 'Lohardaga', 357.0: 'Purbi Singhbhum', 358.0: 'Palamu', 359.0: 'Latehar', 360.0: 'Hazaribagh', 361.0: 'Ramgarh', 362.0: 'Dumka', 363.0: 'Jamtara', 364.0: 'Ranchi', 365.0: 'Khunti', 366.0: 'Gumla', 367.0: 'Simdega', 368.0: 'Pashchimi Singhbhum', 369.0: 'Saraikela-Kharsawan', 370.0: 'Bargarh', 371.0: 'Jharsuguda', 372.0: 'Sambalpur', 373.0: 'Debagarh', 374.0: 'Sundargarh', 375.0: 'Kendujhar', 376.0: 'Mayurbhanj', 377.0: 'Baleshwar', 378.0: 'Bhadrak', 379.0: 'Kendrapara', 380.0: 'Jagatsinghapur', 381.0: 'Cuttack', 382.0: 'Jajapur', 383.0: 'Dhenkanal', 384.0: 'Anugul', 385.0: 'Nayagarh', 386.0: 'Khordha', 387.0: 'Puri', 388.0: 'Ganjam', 389.0: 'Gajapati', 390.0: 'Kandhamal', 391.0: 'Baudh', 392.0: 'Subarnapur', 393.0: 'Balangir', 394.0: 'Nuapada', 395.0: 'Kalahandi', 396.0: 'Rayagada', 397.0: 'Nabarangapur', 398.0: 'Koraput', 399.0: 'Malkangiri', 400.0: 'Koriya', 402.0: 'Jashpur', 403.0: 'Raigarh', 404.0: 'Korba', 405.0: 'Janjgir - Champa', 407.0: 'Kabeerdham', 408.0: 'Rajnandgaon', 411.0: 'Mahasamund', 412.0: 'Dhamtari', 413.0: 'Uttar Bastar Kanker', 415.0: 'Narayanpur', 417.0: 'Bijapur', 418.0: 'Sheopur', 419.0: 'Morena', 420.0: 'Bhind', 421.0: 'Gwalior', 422.0: 'Datia', 423.0: 'Shivpuri', 424.0: 'Tikamgarh', 425.0: 'Chhatarpur', 426.0: 'Panna', 427.0: 'Sagar', 428.0: 'Damoh', 429.0: 'Satna', 430.0: 'Rewa', 431.0: 'Umaria', 432.0: 'Neemuch', 433.0: 'Mandsaur', 434.0: 'Ratlam', 435.0: 'Ujjain', 437.0: 'Dewas', 438.0: 'Dhar', 439.0: 'Indore', 440.0: 'Khargone (West Nimar)', 441.0: 'Barwani', 442.0: 'Rajgarh', 443.0: 'Vidisha', 444.0: 'Bhopal', 445.0: 'Sehore', 446.0: 'Raisen', 447.0: 'Betul', 448.0: 'Harda', 449.0: 'Hoshangabad', 450.0: 'Katni', 451.0: 'Jabalpur', 452.0: 'Narsimhapur', 453.0: 'Dindori', 454.0: 'Mandla', 455.0: 'Chhindwara', 456.0: 'Seoni', 457.0: 'Balaghat', 458.0: 'Guna', 459.0: 'Ashoknagar', 460.0: 'Shahdol', 461.0: 'Anuppur', 462.0: 'Sidhi', 463.0: 'Singrauli', 464.0: 'Jhabua', 465.0: 'Alirajpur', 466.0: 'Khandwa (East Nimar)', 467.0: 'Burhanpur', 468.0: 'Kachchh', 469.0: 'Banas Kantha', 470.0: 'Patan', 471.0: 'Mahesana', 473.0: 'Gandhinagar', 478.0: 'Porbandar', 480.0: 'Amreli', 482.0: 'Anand', 485.0: 'Dohad', 487.0: 'Narmada', 488.0: 'Bharuch', 489.0: 'The Dangs', 490.0: 'Navsari', 491.0: 'Valsad', 492.0: 'Surat', 493.0: 'Tapi', 494.0: 'Diu', 495.0: 'Daman', 496.0: 'Dadra & Nagar Haveli', 497.0: 'Nandurbar', 498.0: 'Dhule', 499.0: 'Jalgaon', 500.0: 'Buldana', 501.0: 'Akola', 502.0: 'Washim', 503.0: 'Amravati', 504.0: 'Wardha', 505.0: 'Nagpur', 506.0: 'Bhandara', 507.0: 'Gondiya', 508.0: 'Gadchiroli', 509.0: 'Chandrapur', 510.0: 'Yavatmal', 511.0: 'Nanded', 512.0: 'Hingoli', 513.0: 'Parbhani', 514.0: 'Jalna', 515.0: 'Aurangabad', 516.0: 'Nashik', 518.0: 'Mumbai Suburban', 519.0: 'Mumbai', 520.0: 'Raigarh', 521.0: 'Pune', 522.0: 'Ahmadnagar', 523.0: 'Bid', 524.0: 'Latur', 525.0: 'Osmanabad', 526.0: 'Solapur', 527.0: 'Satara', 528.0: 'Ratnagiri', 529.0: 'Sindhudurg', 530.0: 'Kolhapur', 531.0: 'Sangli', 542.0: 'Srikakulam', 543.0: 'Vizianagaram', 544.0: 'Visakhapatnam', 545.0: 'East Godavari', 546.0: 'West Godavari', 547.0: 'Krishna', 548.0: 'Guntur', 549.0: 'Prakasam', 550.0: 'Sri Potti Sriramulu Nellore', 551.0: 'Y.S.R.', 552.0: 'Kurnool', 553.0: 'Anantapur', 554.0: 'Chittoor', 555.0: 'Belgaum', 556.0: 'Bagalkot', 557.0: 'Bijapur', 558.0: 'Bidar', 559.0: 'Raichur', 560.0: 'Koppal', 561.0: 'Gadag', 562.0: 'Dharwad', 563.0: 'Uttara Kannada', 564.0: 'Haveri', 565.0: 'Bellary', 566.0: 'Chitradurga', 567.0: 'Davanagere', 568.0: 'Shimoga', 569.0: 'Udupi', 570.0: 'Chikmagalur', 571.0: 'Tumkur', 572.0: 'Bangalore', 573.0: 'Mandya', 574.0: 'Hassan', 575.0: 'Dakshina Kannada', 576.0: 'Kodagu', 577.0: 'Mysore', 578.0: 'Chamarajanagar', 579.0: 'Gulbarga', 580.0: 'Yadgir', 581.0: 'Kolar', 582.0: 'Chikkaballapura', 583.0: 'Bangalore Rural', 584.0: 'Ramanagara', 585.0: 'North Goa', 586.0: 'South Goa', 587.0: 'Lakshadweep', 588.0: 'Kasaragod', 589.0: 'Kannur', 590.0: 'Wayanad', 591.0: 'Kozhikode', 592.0: 'Malappuram', 593.0: 'Palakkad', 594.0: 'Thrissur', 595.0: 'Ernakulam', 596.0: 'Idukki', 597.0: 'Kottayam', 598.0: 'Alappuzha', 599.0: 'Pathanamthitta', 600.0: 'Kollam', 601.0: 'Thiruvananthapuram', 602.0: 'Thiruvallur', 603.0: 'Chennai', 604.0: 'Kancheepuram', 605.0: 'Vellore', 606.0: 'Tiruvannamalai', 607.0: 'Viluppuram', 608.0: 'Salem', 609.0: 'Namakkal', 610.0: 'Erode', 611.0: 'The Nilgiris', 612.0: 'Dindigul', 613.0: 'Karur', 614.0: 'Tiruchirappalli', 615.0: 'Perambalur', 616.0: 'Ariyalur', 617.0: 'Cuddalore', 618.0: 'Nagapattinam', 619.0: 'Thiruvarur', 620.0: 'Thanjavur', 621.0: 'Pudukkottai', 622.0: 'Sivaganga', 623.0: 'Madurai', 624.0: 'Theni', 625.0: 'Virudhunagar', 626.0: 'Ramanathapuram', 627.0: 'Thoothukkudi', 628.0: 'Tirunelveli', 629.0: 'Kanniyakumari', 630.0: 'Dharmapuri', 631.0: 'Krishnagiri', 632.0: 'Coimbatore', 633.0: 'Tiruppur', 634.0: 'Yanam', 635.0: 'Puducherry', 636.0: 'Mahe', 637.0: 'Karaikal', 638.0: 'Nicobars', 639.0: 'North  & Middle Andaman', 640.0: 'South Andaman', 801.0: 'East Siang', 802.0: 'Kra Daadi', 803.0: 'Kurung Kumey', 804.0: 'Lohit', 805.0: 'Longding', 806.0: 'Namsai', 807.0: 'Siang', 808.0: 'Tirap', 809.0: 'West Siang', 810.0: 'Biswanath', 811.0: 'Charaideo', 812.0: 'Dhubri', 813.0: 'Hojai', 814.0: 'Jorhat', 815.0: 'Karbi Anglong', 816.0: 'Majuli', 817.0: 'Nagaon', 818.0: 'Sivasagar', 819.0: 'Sonitpur', 820.0: 'South Salmara Mancachar', 821.0: 'West Karbi Anglong', 822.0: 'Balod', 823.0: 'Baloda Bazar', 824.0: 'Balrampur', 825.0: 'Bastar', 826.0: 'Bemetara', 827.0: 'Bilaspur', 828.0: 'Dantewada', 829.0: 'Durg', 830.0: 'Gariyaband', 831.0: 'Kodagaon', 832.0: 'Mungeli', 833.0: 'Raipur', 834.0: 'Sukma', 835.0: 'Surajpur', 836.0: 'Surguja', 837.0: 'Central', 838.0: 'East', 839.0: 'New Delhi', 840.0: 'North', 841.0: 'North East', 842.0: 'North West', 843.0: 'Shahdara', 844.0: 'South', 845.0: 'South East', 846.0: 'South West', 847.0: 'West', 848.0: 'Ahmadabad', 849.0: 'Aravali', 850.0: 'Bhavnagar', 851.0: 'Botad', 852.0: 'Chhota Udaipur', 853.0: 'Devbhumi Dwarka', 854.0: 'Gir Somnath', 855.0: 'Jamnagar', 856.0: 'Junagadh', 857.0: 'Kheda', 858.0: 'Mahisagar', 859.0: 'Morbi', 860.0: 'Panch Mahals', 861.0: 'Rajkot', 862.0: 'Sabar Kantha', 863.0: 'Surendranagar', 864.0: 'Vadodara', 865.0: 'Bhiwani', 866.0: 'Charkhi Dadri', 867.0: 'Agar Malwa', 868.0: 'Shajapur', 869.0: 'Palghar', 870.0: 'Thane', 871.0: 'East Garo Hills', 872.0: 'East Jantia Hills', 873.0: 'North Garo Hills', 874.0: 'South West Garo Hills', 875.0: 'South West Khasi Hills', 876.0: 'West Garo Hills', 877.0: 'West Jaintia Hills', 878.0: 'West Khasi Hills', 879.0: 'Fazilka', 880.0: 'Firozpur', 881.0: 'Gurdaspur', 882.0: 'Pathankot', 883.0: 'Adilabad', 884.0: 'Bhadradri Kothagudem', 885.0: 'Hyderabad', 886.0: 'Jagitial', 887.0: 'Jangoan', 888.0: 'Jayashankar Bhupalapally', 889.0: 'Jogulamba Gadwal', 890.0: 'Kamareddy', 891.0: 'Karimnagar', 892.0: 'Khammam', 893.0: 'Komaram Bheem Asifabad', 894.0: 'Mahabubabad', 895.0: 'Mahabubnagar', 896.0: 'Mancherial', 897.0: 'Medak', 898.0: 'Medchal-Malkajgiri', 899.0: 'Nagarkurnool', 900.0: 'Nalgonda', 901.0: 'Nirmal', 902.0: 'Nizamabad', 903.0: 'Peddapalli', 904.0: 'Rajanna Sircilla', 905.0: 'Ranga Reddy', 906.0: 'Sangareddy', 907.0: 'Siddipet', 908.0: 'Suryapet', 909.0: 'Vikarabad', 910.0: 'Wanaparthy', 911.0: 'Warangal Rural', 912.0: 'Warangal Urban', 913.0: 'Yadadri Bhuvanagiri', 914.0: 'Gomati', 915.0: 'Khowai', 916.0: 'North Tripura', 917.0: 'Sepahijala', 918.0: 'South Tripura', 919.0: 'Unakoti', 920.0: 'West Tripura', 921.0: 'Amethi', 922.0: 'Budaun', 923.0: 'Ghaziabad', 924.0: 'Hapur', 925.0: 'Moradabad', 926.0: 'Muzaffarnagar', 927.0: 'Rae Bareli', 928.0: 'Sambhal', 929.0: 'Shamli', 930.0: 'Sultanpur', 931.0: 'Paschim Barddhaman', 932.0: 'Purba Barddhaman'}"
+152,SHWEIGHT,Household weight (6 decimals) (state level),
+153,SHMWEIGHT,Household weight - male subsample (6 decimals) (state level),
+154,SHDBS,Eligiblity for DBS collection,"{0.0: 'No', 1.0: 'Yes'}"
+155,SH28,Does any usual resident of your household suffer from tuberculosis?,"{0.0: 'No', 1.0: 'Yes'}"
+156,SH29A,Person 01: Who suffer from tuberculosis (Line number),{95.0: 'No more TB cases'}
+157,SH29A1,Person 01: Where medical treatment was received?,"{0.0: 'No', 1.0: 'Yes, public sector only', 2.0: 'Yes, private sector only', 3.0: 'Yes, both sectors', 8.0: ""Don't know""}"
+158,SH29B,Person 02: Who suffer from tuberculosis (Line number),{95.0: 'No more TB cases'}
+159,SH29B1,Person 02: Where medical treatment was received?,"{0.0: 'No', 1.0: 'Yes, public sector only', 2.0: 'Yes, private sector only', 3.0: 'Yes, both sectors', 8.0: ""Don't know""}"
+160,SH29C,Person 03: Who suffer from tuberculosis (Line number),{95.0: 'No more TB cases'}
+161,SH29C1,Person 03: Where medical treatment was received?,"{0.0: 'No', 1.0: 'Yes, public sector only', 2.0: 'Yes, private sector only', 3.0: 'Yes, both sectors', 8.0: ""Don't know""}"
+162,SH29D,Person 04: Who suffer from tuberculosis (Line number),{95.0: 'No more TB cases'}
+163,SH29D1,Person 04: Where medical treatment was received?,"{0.0: 'No', 1.0: 'Yes, public sector only', 2.0: 'Yes, private sector only', 3.0: 'Yes, both sectors', 8.0: ""Don't know""}"
+164,SH31,Does any member of this household including you have any disability?,"{0.0: 'No', 1.0: 'Yes'}"
+165,SH33A,Person 01: Who suffer from disability (Line number),{95.0: 'No more disability cases'}
+166,SH33B,Person 02: Who suffer from disability (Line number),{95.0: 'No more disability cases'}
+167,SH33C,Person 03: Who suffer from disability (Line number),{95.0: 'No more disability cases'}
+168,SH33D,Person 04: Who suffer from disability (Line number),{95.0: 'No more disability cases'}
+169,SH33A1A,Person 01: Disablity - hearing,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+170,SH33A1B,Person 01: Disablity - speech,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+171,SH33A1C,Person 01: Disablity - visual,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+172,SH33A1D,Person 01: Disablity - mental,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+173,SH33A1E,Person 01: Disablity - locomotor,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+174,SH33A1X,Person 01: Disablity - other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+175,SH33B1A,Person 02: Disablity - hearing,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+176,SH33B1B,Person 02: Disablity - speech,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+177,SH33B1C,Person 02: Disablity - visual,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+178,SH33B1D,Person 02: Disablity - mental,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+179,SH33B1E,Person 02: Disablity - locomotor,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+180,SH33B1X,Person 02: Disablity - other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+181,SH33C1A,Person 03: Disablity - hearing,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+182,SH33C1B,Person 03: Disablity - speech,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+183,SH33C1C,Person 03: Disablity - visual,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+184,SH33C1D,Person 03: Disablity - mental,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+185,SH33C1E,Person 03: Disablity - locomotor,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+186,SH33C1X,Person 03: Disablity - other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+187,SH33D1A,Person 04: Disablity - hearing,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+188,SH33D1B,Person 04: Disablity - speech,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+189,SH33D1C,Person 04: Disablity - visual,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+190,SH33D1D,Person 04: Disablity - mental,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+191,SH33D1E,Person 04: Disablity - locomotor,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+192,SH33D1X,Person 04: Disablity - other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+193,SH37B,"In the past two weeks, was the water from this source not available for at least one full day?","{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+194,SH44,Do member of your household have access to a toilet facility?,"{0.0: 'No', 1.0: 'Yes'}"
+195,SH45,What kind of toilet facility do members of your household have access to?,"{1.0: 'Own toilet', 2.0: 'Community toilet', 3.0: 'Shared toilet with other household'}"
+196,SH46,What type of drainage facility does this household have?,"{1.0: 'Closed drainage', 2.0: 'Open drainage', 3.0: 'Drain to soak pit', 4.0: 'No drainage'}"
+197,SH47,What is the religion of the head of the household?,"{1.0: 'Hindu', 2.0: 'Muslim', 3.0: 'Christian', 4.0: 'Sikh', 5.0: 'Buddhist / Neo-Buddhist', 6.0: 'Jain', 7.0: 'Jewish', 8.0: 'Parsi / Zoroastrian', 9.0: 'No religion', 96.0: 'Other'}"
+198,SH48,What is the caste or tribe of the head of the household?,"{991.0: 'Enter caste', 992.0: 'Enter tribe', 993.0: 'No caste / tribe', 998.0: ""Don't know""}"
+199,SH49,"Is this a scheduled caste, a scheduled tribe, other backward class, or none of them?","{1.0: 'Scheduled caste', 2.0: 'Scheduled tribe', 3.0: 'Other backward class', 4.0: 'None of them', 8.0: ""Don't know""}"
+200,SH50B,Mattress,"{0.0: 'No', 1.0: 'Yes'}"
+201,SH50C,Pressure cooker,"{0.0: 'No', 1.0: 'Yes'}"
+202,SH50D,Chair,"{0.0: 'No', 1.0: 'Yes'}"
+203,SH50E,Cot or bed,"{0.0: 'No', 1.0: 'Yes'}"
+204,SH50F,Table,"{0.0: 'No', 1.0: 'Yes'}"
+205,SH50G,Electric fan,"{0.0: 'No', 1.0: 'Yes'}"
+206,SH50I,Black and white television,"{0.0: 'No', 1.0: 'Yes'}"
+207,SH50J,Colour television,"{0.0: 'No', 1.0: 'Yes'}"
+208,SH50K,Sewing machine,"{0.0: 'No', 1.0: 'Yes'}"
+209,SH50N,Internet,"{0.0: 'No', 1.0: 'Yes'}"
+210,SH50Q,Air conditioner/cooler,"{0.0: 'No', 1.0: 'Yes'}"
+211,SH50R,Washing machine,"{0.0: 'No', 1.0: 'Yes'}"
+212,SH50X,Water pump,"{0.0: 'No', 1.0: 'Yes'}"
+213,SH50Y,Thresher,"{0.0: 'No', 1.0: 'Yes'}"
+214,SH50Z,Tractor,"{0.0: 'No', 1.0: 'Yes'}"
+215,SH52,"In this household, is food cooked on a stove, a chullah or an open fire?","{1.0: 'Stove', 2.0: 'Chullah', 3.0: 'Open fire', 6.0: 'Other'}"
+216,SH55,Does the room used as kitchen have any ventalation?,"{0.0: 'No', 1.0: 'Yes'}"
+217,SH56A,Dispose the kitchen waste - let out into drain/sewer,"{0.0: 'No', 1.0: 'Yes'}"
+218,SH56B,Dispose the kitchen waste - open drain,"{0.0: 'No', 1.0: 'Yes'}"
+219,SH56C,Dispose the kitchen waste - closed drain,"{0.0: 'No', 1.0: 'Yes'}"
+220,SH56D,Dispose the kitchen waste - reuse for garden or farming,"{0.0: 'No', 1.0: 'Yes'}"
+221,SH56E,Dispose the kitchen waste - reuse for other domestic purposes,"{0.0: 'No', 1.0: 'Yes'}"
+222,SH56F,Dispose the kitchen waste - manual collection,"{0.0: 'No', 1.0: 'Yes'}"
+223,SH56X,Dispose the kitchen waste - other,"{0.0: 'No', 1.0: 'Yes'}"
+224,SH61,Does this household own this house or any other house?,"{0.0: 'No', 1.0: 'Yes'}"
+225,SH62,Who owns the house?,"{1.0: 'Male member', 2.0: 'Female member', 3.0: 'Both', 8.0: ""Don't know""}"
+226,SH64,Who owns this agricultural land?,"{1.0: 'Male member', 2.0: 'Female member', 3.0: 'Both', 8.0: ""Don't know""}"
+227,SH66,"Out of this land, how much is irrigated?","{9950.0: '995 or more', 9995.0: 'None', 9998.0: ""Don't know""}"
+228,SH67A,Cows / bulls / buffaloes / yaks,"{0.0: 'No', 1.0: 'Yes'}"
+229,SH67B,Camels,"{0.0: 'No', 1.0: 'Yes'}"
+230,SH67C,Horses / donkeys / mules,"{0.0: 'No', 1.0: 'Yes'}"
+231,SH67D,Goats or Sheep,"{0.0: 'No', 1.0: 'Yes'}"
+232,SH67E,Pigs,"{0.0: 'No', 1.0: 'Yes'}"
+233,SH67F,Chickens / ducks,"{0.0: 'No', 1.0: 'Yes'}"
+234,SH69,Does this household share any sleeping room with this(these) animal(s)?,"{0.0: 'No', 1.0: 'Yes'}"
+235,SH71,Is any usual member of this household covered by a health scheme or health insurance?,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+236,SH72A,Health insurance or scheme: Employees State Insurance Scheme,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+237,SH72B,Health insurance or scheme: Central Government Health Scheme,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+238,SH72C,Health insurance or scheme: State Health Insurance Scheme,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+239,SH72D,Health insurance or scheme: Rashtriya Swasthya Bima Yojana,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+240,SH72E,Health insurance or scheme: Community Health Insurance Programme,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+241,SH72F,Health insurance or scheme: other health insurance through employer,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+242,SH72G,Health insurance or scheme: medical reimbersement from employer,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+243,SH72H,Health insurance or scheme: other privately purchased commercial health insurance,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+244,SH72X,Health insurance or scheme: other,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+245,SH73,"When members of your household get sick, where do they generally go for treatment?","{11.0: 'Public: Government / municipal hospital', 12.0: 'Public: Government dispensary', 13.0: 'Public: UHC / UHP / UFWC', 14.0: 'Public: CHC / rural hospital / block PHC', 15.0: 'Public: PHC / additional PHC', 16.0: 'Public: Sub-centre', 17.0: 'Public AYUSH: AYURVEDA', 18.0: 'Public AYUSH: YOGA AND NATUROPATHY', 19.0: 'Public AYUSH: UNANI', 20.0: 'Public AYUSH: SIDDHA', 21.0: 'Public AYUSH: HOMEOPATHY', 22.0: 'Public AYUSH: SOWA RIGPA (TTM)', 23.0: 'Public AYUSH: OTHER', 24.0: 'Public: ANGANWADI/ICDS centre', 25.0: 'Public: ASHA', 26.0: 'Public: Government mobile clinic', 27.0: 'Other public sector', 31.0: 'NGO or trust hospital / clinic', 41.0: 'Private hospital', 42.0: 'Private doctor / clinic', 43.0: 'Private paramedic', 44.0: 'Private AYUSH: AYURVEDA', 45.0: 'Private AYUSH: YOGA AND NATUROPATHY', 46.0: 'Private AYUSH: UNANI', 47.0: 'Private AYUSH: SIDDHA', 48.0: 'Private AYUSH: HOMEOPATHY', 49.0: 'Private AYUSH: SOWA RIGPA (TTM)', 50.0: 'Private AYUSH: OTHER', 51.0: 'Private: Traditional healer', 52.0: 'Private: Pharmacy / drugstore', 53.0: 'Private: DAI (TBA)', 54.0: 'Other private health sector', 61.0: 'Shop', 62.0: 'Home treatment', 96.0: 'Other'}"
+246,SH74A,Reason not going to a government facility for sickness: no nearby facility,"{0.0: 'No', 1.0: 'Yes'}"
+247,SH74B,Reason not going to a government facility for sickness: facility timing not convenient,"{0.0: 'No', 1.0: 'Yes'}"
+248,SH74C,Reason not going to a government facility for sickness: heatlh personnel often absent,"{0.0: 'No', 1.0: 'Yes'}"
+249,SH74D,Reason not going to a government facility for sickness: waiting time too long,"{0.0: 'No', 1.0: 'Yes'}"
+250,SH74E,Reason not going to a government facility for sickness: poor quality of care,"{0.0: 'No', 1.0: 'Yes'}"
+251,SH74X,Reason not going to a government facility for sickness: other,"{0.0: 'No', 1.0: 'Yes'}"
+252,SH75,Does this household have a BPL card?,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+253,SH87,Did any usual member of this household die since January 2011?,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+254,SH88,Total number of deaths,
+255,SHNFHS2,House type (as defined in NFHS-2 and 3),"{1.0: 'Kachha', 2.0: 'semi-Pucca', 3.0: 'Pucca'}"
+256,SHSTRUC,Household structure,"{1.0: 'Nuclear', 2.0: 'Non-nuclear'}"
+257,SV270S,Wealth index within state,"{1.0: 'Poorest', 2.0: 'Poorer', 3.0: 'Middle', 4.0: 'Richer', 5.0: 'Richest'}"
+258,SV271S,Wealth index factor score within state (5 decimals),
+259,SV270US,Wealth index - urban within state,"{1.0: 'Poorest', 2.0: 'Poorer', 3.0: 'Middle', 4.0: 'Richer', 5.0: 'Richest'}"
+260,SV271US,Wealth index factor score (5 decimals) - urban,
+261,SV270RS,Wealth index - rural within state,"{1.0: 'Poorest', 2.0: 'Poorer', 3.0: 'Middle', 4.0: 'Richer', 5.0: 'Richest'}"
+262,SV271RS,Wealth index factor score (5 decimals) - rural,
+263,SHCREFUSE,Questionnaire refusal due to COVID-19,"{1.0: 'Household COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+264,HV101,Relationship to head,"{1.0: 'Head', 2.0: 'Wife or husband', 3.0: 'Son/daughter', 4.0: 'Son/daughter-in-law', 5.0: 'Grandchild', 6.0: 'Parent', 7.0: 'Parent-in-law', 8.0: 'Brother/sister', 9.0: 'Co-spouse', 10.0: 'Other relative', 11.0: 'Adopted/foster child', 12.0: 'Not related', 13.0: 'Niece/nephew by blood', 14.0: 'Niece/nephew by marriage', 15.0: 'Brother-in-law or sister-in-law', 16.0: 'Niece/nephew', 17.0: 'Domestic servant', 98.0: ""Don't know""}"
+265,HV102,Usual resident,"{0.0: 'No', 1.0: 'Yes'}"
+266,HV103,Slept last night,"{0.0: 'No', 1.0: 'Yes'}"
+267,HV104,Sex of household member,"{1.0: 'Male', 2.0: 'Female', 3.0: 'Transgender'}"
+268,HV105,Age of household members,"{95.0: '95+', 98.0: ""Don't know""}"
+269,HV106,Highest educational level attained,"{0.0: 'No education, preschool', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+270,HV107,Highest year of education completed,"{98.0: ""Don't know""}"
+271,HV108,Education completed in single years,"{97.0: 'Inconsistent', 98.0: ""Don't know""}"
+272,HV109,Educational attainment,"{0.0: 'No education', 1.0: 'Incomplete primary', 2.0: 'Complete primary', 3.0: 'Incomplete secondary', 4.0: 'Complete secondary', 5.0: 'Higher', 8.0: ""Don't know""}"
+273,HV110,NA - Member still in school,"{0.0: 'No', 1.0: 'Yes'}"
+274,HV111,Mother alive,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+275,HV112,Mother's line number,{0.0: 'Mother not in household'}
+276,HV113,Father alive,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+277,HV114,Father's line number,{0.0: 'Father not in household'}
+278,HV115,Current marital status,"{0.0: 'Never married', 1.0: 'Married', 2.0: 'Living together', 3.0: 'Widowed', 4.0: 'Divorced', 5.0: 'Not living together', 8.0: ""Don't know""}"
+279,HV116,"Currently, formerly, never married","{0.0: 'Never married', 1.0: 'Currently married', 2.0: 'Formerly/ever married'}"
+280,HV117,Eligibility for female interview,"{0.0: 'Not eligible', 1.0: 'Eligible'}"
+281,HV118,Eligibility for male interview,"{0.0: 'Not eligible', 1.0: 'Eligible'}"
+282,HV120,Children eligibility for height/weight and hemoglobin,"{0.0: 'Not eligible', 1.0: 'Eligible'}"
+283,HV121,Member attended school during current school year,"{0.0: 'No', 1.0: 'Currently attending', 2.0: 'Attended at some time', 8.0: ""Don't know""}"
+284,HV122,Educational level during current school year,"{0.0: 'No education, preschool', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+285,HV123,Grade of education during current school year,"{98.0: ""Don't know""}"
+286,HV124,Education in single years - current school year,"{97.0: 'Inconsistent', 98.0: ""Don't know""}"
+287,HV125,NA - Member attended school during previous school year,"{0.0: 'No', 1.0: 'Yes'}"
+288,HV126,NA - Educational level during previous school year,"{0.0: 'No education, preschool', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+289,HV127,NA - Grade of education during previous school year,"{98.0: ""Don't know""}"
+290,HV128,NA - Education in single years - previous school year,"{97.0: 'Inconsistent', 98.0: ""Don't know""}"
+291,HV129,NA - School attendance status,"{0.0: 'Never attended', 1.0: 'Entered school', 2.0: 'Advanced', 3.0: 'Repeating', 4.0: 'Dropout', 5.0: 'Left school 2+ years ago', 8.0: ""Don't know""}"
+292,HV140,Member has a birth certificate,"{0.0: 'Neither certificate or registered', 1.0: 'Has certificate', 2.0: 'Registered', 8.0: ""Don't know""}"
+293,IDXH4,Index to Household Schedule,
+294,SH08,Current marital status [age 13+],"{0.0: 'Never married', 1.0: 'Currently married', 2.0: 'Married, but Gauna not performed', 3.0: 'Widowed', 4.0: 'Divorced', 5.0: 'Separated', 6.0: 'Deserted', 8.0: ""Don't know""}"
+295,SH09A,Women age 15+,"{0.0: 'Not eligible', 1.0: 'Eligible'}"
+296,SH10A,Men age 15+,"{0.0: 'Not eligible', 1.0: 'Eligible'}"
+297,SH17,Currently attending preschool,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+298,SH18,Type of preschool,"{1.0: 'ICDS RUN PSE', 2.0: 'OTHER GOVERNMENT RUN PSE', 3.0: 'PRIVATELY RUN PSE', 4.0: 'OTHER', 8.0: ""DON'T KNOW""}"
+299,SH20,Highest grade completed,"{0.0: 'Less than one year completed', 95.0: 'Pre-Primary', 98.0: ""Don't know""}"
+300,SH23,Main reason is not attending school,"{1.0: 'School too far away', 2.0: 'Transport not available', 3.0: 'Further education not considered necessary', 4.0: 'Required for household work', 5.0: 'Required for work on farm / family business', 6.0: 'Required for outside work for payment in cash or kind', 7.0: 'Costs too much', 8.0: 'No proper school facilities for girls', 9.0: 'Due to disaster, natural calamity', 10.0: 'Not safe to send girls', 11.0: 'No female teacher', 12.0: 'Required for care of siblings', 13.0: 'Not interested in studies', 14.0: 'Repeated failures', 15.0: 'Got married', 16.0: 'Did not get admission', 96.0: 'Other', 98.0: ""Don't know""}"
+301,SH24,Aadhaar card or Aadhaar number,"{0.0: 'No', 1.0: 'Yes'}"
+302,SH25,Smokes or uses tobacco,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+303,SH26,Drinks alcohol,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+304,SH29,Suffers from TB,"{0.0: 'Not listed as suffering from TB', 1.0: 'Yes'}"
+305,SH29AA,Location where treated for TB,"{0.0: 'No place', 1.0: 'Yes, public sector only', 2.0: 'Yes, private sector only', 3.0: 'Yes, both sectors', 8.0: ""Don't know""}"
+306,SHB14A,30 minutes prior to BP measure: eaten,"{0.0: 'No', 1.0: 'Yes'}"
+307,SHB14B,"30 minutes prior to BP measure: had coffee, tea","{0.0: 'No', 1.0: 'Yes'}"
+308,SHB14C,30 minutes prior to BP measure: smoked any tobacco product,"{0.0: 'No', 1.0: 'Yes'}"
+309,SHB14D,30 minutes prior to BP measure: use any other type of tobacco,"{0.0: 'No', 1.0: 'Yes'}"
+310,SHB15,Arm circumference,
+311,SHB16,Blood pressure monitor cuff size,"{1.0: 'Small: 17cm-22cm', 2.0: 'Medium: 23cm-31cm', 3.0: 'Large: 32cm-42cm'}"
+312,SHB17,Time of first BP reading: (hhmm - 24 hour clock),
+313,SHB18S,First SYSTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+314,SHB18D,First DIASTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+315,SHB19,Blood pressure ever been checked previously,"{0.0: 'No', 1.0: 'Yes'}"
+316,SHB20,Told had high BP on two or more occasions by doctor or other health professional,"{0.0: 'No', 1.0: 'Yes'}"
+317,SHB21,Currently taking a prescribed medicine to lower BP,"{0.0: 'No', 1.0: 'Yes'}"
+318,SHB24,Time of second BP reading: (hhmm - 24 hour clock),
+319,SHB25S,Second SYSTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+320,SHB25D,Second DIASTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+321,SHB28,Time of third BP reading: (hhmm - 24 hour clock),
+322,SHB29S,Third SYSTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+323,SHB29D,Third DIASTOLIC reading,"{994.0: 'Refused', 995.0: 'Technical problem', 996.0: 'Other'}"
+324,SHB53,Time since last ate,
+325,SHB54,"Time since last drank, something other than plain water",{95.0: '95+ hours ago'}
+326,SHB55,Blood glucose ever been checked,"{0.0: 'No', 1.0: 'Yes'}"
+327,SHB56,Told high blood glucose on two or more occations by doctor or other health professionals,"{0.0: 'No', 1.0: 'Yes'}"
+328,SHB57,Currently taking a prescribed medicine to lower blood glucose,"{0.0: 'No', 1.0: 'Yes'}"
+329,SHB73,Time of blood glucose reading: (hhmm - 24 hour clock),{9696.0: 'Not tested'}
+330,SHB74,Glucose level,"{499.0: '499 (mg/dL) +', 995.0: 'Refused', 996.0: 'Other', 998.0: 'Not tested'}"
+331,SHB79,Ever undergone a screening test for cervical cancer,"{0.0: 'No', 1.0: 'Yes'}"
+332,SHB80,Ever undergone a breast examination for breast cancer,"{0.0: 'No', 1.0: 'Yes'}"
+333,SHB81,Ever undergone an oral cavity examination for oral cancer,"{0.0: 'No', 1.0: 'Yes'}"
+334,SHBSEL,Biomarker Unit selection,"{0.0: 'Not selected', 1.0: 'Selected'}"
+335,SHB10C,Read consent statement - blood pressure,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Not present', 5.0: 'Parent/respondent granted but not signed', 7.0: 'Respondent/ parent granted but no signature'}"
+336,SHB20C,Read consent statement - blood glucose,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Not present', 5.0: 'Parent/respondent granted but not signed', 7.0: 'Respondent/ parent granted but no signature'}"
+337,SHB23,Consent given for second blood pressure reading,"{0.0: 'No', 1.0: 'Yes'}"
+338,SHB27,Consent given for third blood pressure reading,"{0.0: 'No', 1.0: 'Yes'}"
+339,SH305,Waist curcumference,"{999.5: 'Refused', 999.6: 'Other'}"
+340,SH306,Hip curcumference,"{999.5: 'Refused', 999.6: 'Other'}"
+341,SHB303RC,Refusal due to COVID-19 (QH205),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+342,SHB304RC,Refusal due to COVID-19 (QH304),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+343,SHB305RC,Refusal due to COVID-19 (QH305),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+344,SHB306RC,Refusal due to COVID-19 (QH306),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+345,SHB311RC,Refusal due to COVID-19 (QH311),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+346,SHB313RC,Refusal due to COVID-19 (QH313),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+347,SHB318RC,Refusal due to COVID-19 (QH318),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+348,SHB325RC,Refusal due to COVID-19 (QH325),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+349,SHB329RC,Refusal due to COVID-19 (QH329),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+350,SHB343RC,Refusal due to COVID-19 (QH343),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+351,SHB345RC,Refusal due to COVID-19 (QH345),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+352,SHB350RC,Refusal due to COVID-19 (QH350),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+353,SHB352RC,Refusal due to COVID-19 (QH352),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+354,SHB362RC,Refusal due to COVID-19 (QH362),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+355,SHB364RC,Refusal due to COVID-19 (QH364),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+356,SHB368RC,Refusal due to COVID-19 (QH368),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+357,SHB370RC,Refusal due to COVID-19 (QH370),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+358,SHB374RC,Refusal due to COVID-19 (QH374),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+359,SHB375RC,Refusal due to COVID-19 (QH375),"{1.0: 'Respondent COVID affected', 2.0: 'Fear/concern about contracting COVID', 3.0: 'No, not COVID related'}"
+360,HA0,Index to Household Schedule,
+361,HA1,Woman's age in years,
+362,HA2,Woman's weight in kilograms (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+363,HA3,Woman's height in centimeters (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+364,HA4,Height/Age percentile,{9998.0: 'Flagged cases'}
+365,HA5,Height/Age standard deviation,{9998.0: 'Flagged cases'}
+366,HA6,Height/Age percent ref. median,{99998.0: 'Flagged cases'}
+367,HA11,Weight/Height standard deviation (DHS),{9998.0: 'Flagged cases'}
+368,HA12,Weight/Height percent ref. median (DHS),{99998.0: 'Flagged cases'}
+369,HA12A,Weight/Height percent ref. median (Fog),{99998.0: 'Flagged cases'}
+370,HA12B,Weight/Height percent ref. median (WHO),{99998.0: 'Flagged cases'}
+371,HA13,Result of measurement - height/weight,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other'}"
+372,HA21,Fieldworker measurer code,
+373,HA32,Date of birth (CMC),
+374,HA33,Completeness of HA32 information,"{0.0: 'Month, year and day', 1.0: 'Month and year - information complete', 2.0: 'Month and age - year imputed', 3.0: 'Year and age - month imputed', 4.0: 'Year and age - year ignored', 5.0: 'Year - age/month imputed', 6.0: 'Age - year/month imputed', 7.0: 'Month - age/year imputed', 8.0: 'None - all imputed'}"
+375,HA35,Smoking (cigarettes in last 24 hours),"{0.0: ""Doesn't smoke"", 80.0: '80+', 94.0: 'Smokes pipes, cigars, etc'}"
+376,HA40,Body Mass Index,{9998.0: 'Flagged cases'}
+377,HA41,Rohrer's index,{9998.0: 'Flagged cases'}
+378,HA50,Under age 18,"{1.0: 'Under age 18', 2.0: 'Age 18 or older'}"
+379,HA51,Line number of parent/caretaker,{0.0: 'Not in household'}
+380,HA52,Read consent statement - hemoglobin,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 7.0: 'Adult/parent granted but no signature'}"
+381,HA53,Hemoglobin level (g/dl - 1 decimal),"{994.0: 'Not present', 995.0: 'Refused', 996.0: 'Other', 998.0: ""Don't know""}"
+382,HA54,Currently pregnant,"{0.0: ""No/don't know"", 1.0: 'Yes'}"
+383,HA55,Result of measurement - hemoglobin,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other', 8.0: ""Don't know""}"
+384,HA56,Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),{997.0: 'Inconsistent'}
+385,HA57,Anemia level,"{1.0: 'Severe', 2.0: 'Moderate', 3.0: 'Mild', 4.0: 'Not anemic'}"
+386,HA58,NA - Agrees to referral - anemia,"{0.0: 'No', 1.0: 'Yes'}"
+387,HA60,Marital status,"{1.0: 'Never in union', 2.0: 'Other'}"
+388,HA61,Read consent statement - HIV,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 6.0: 'Sample not tested/lost/not enough DBS', 7.0: 'Granted but no signature'}"
+389,HA62,Bar code for HIV blood sample,"{'?': 'Missing', '999992': ""Woman's interview incomplete or woman is not de-facto"", '999993': 'Sample damaged/insufficient/not found in lab', '999994': 'Refused', '999995': 'Not selected', '999996': 'Other'}"
+390,HA63,Result of measurement - HIV,"{1.0: 'Blood taken', 2.0: 'Not present', 3.0: 'Refused', 4.0: 'Sample not tested/lost/damaged/insufficient', 5.0: 'Not enough DBS to complete protocol', 6.0: 'Other'}"
+391,HA64,Consent for additional tests,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Not present', 6.0: 'Sample not tested/lost/not enough DBS', 7.0: 'Respondent/ parent granted but no signature'}"
+392,HA65,Result of woman's individual interview,"{1.0: 'Completed', 2.0: 'Not at home', 3.0: 'Postponed', 4.0: 'Refused', 5.0: 'Partly completed', 6.0: 'Incapacitated', 7.0: 'Other'}"
+393,HA66,Woman's highest educational level,"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+394,HA67,Woman's highest year of education,"{98.0: ""Don't know""}"
+395,HA68,Woman's highest educational level (for preliminary and final report),"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+396,HA69,NA - HIV weight (6 decimals),
+397,HA70,NA - Interviewer that took blood for HIV testing,
+398,HC0,Index to Household Schedule,
+399,HC1,Child's age in months,
+400,HC1A,Child's age in days,
+401,HC2,Child's weight in kilograms (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+402,HC3,Child's height in centimeters (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+403,HC4,Height/Age percentile,{9998.0: 'Flagged cases'}
+404,HC5,Height/Age standard deviation,{9998.0: 'Flagged cases'}
+405,HC6,Height/Age percent of ref. median,{99998.0: 'Flagged cases'}
+406,HC7,Weight/Age percentile,{9998.0: 'Flagged cases'}
+407,HC8,Weight/Age standard deviation,{9998.0: 'Flagged cases'}
+408,HC9,Weight/Age percent of ref. median,{99998.0: 'Flagged cases'}
+409,HC10,Weight/Height percentile,{9998.0: 'Flagged cases'}
+410,HC11,Weight/Height standard deviation,{9998.0: 'Flagged cases'}
+411,HC12,Weight/Height percent of ref. median,{99998.0: 'Flagged cases'}
+412,HC13,Result of measurement - height/weight,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other'}"
+413,HC15,Height: lying or standing,"{0.0: 'Not measured', 1.0: 'Lying', 2.0: 'Standing'}"
+414,HC16,Day of birth,"{97.0: 'Inconsistent', 98.0: ""Don't know""}"
+415,HC17,Date measured (day),
+416,HC18,Date measured (month),
+417,HC19,Date measured (year),
+418,HC20,Century Day Code (CDC) of measurement,
+419,HC21,Fieldworker measurer code,
+420,HC27,Sex,"{1.0: 'Male', 2.0: 'Female'}"
+421,HC30,Month of birth,"{97.0: 'Inconsistent', 98.0: ""Don't know""}"
+422,HC31,Year of birth,"{9997.0: 'Inconsistent', 9998.0: ""Don't know""}"
+423,HC32,Date of birth (CMC),
+424,HC32A,Century Day Code (CDC) of birth,
+425,HC33,Completeness of HC32 information,"{0.0: 'Month, year and day', 1.0: 'Month and year - information complete', 2.0: 'Month and age - year imputed', 3.0: 'Year and age - month imputed', 5.0: 'Year - age/month imputed', 6.0: 'Age - year/month imputed', 7.0: 'Month - age/year imputed', 8.0: 'None - all imputed'}"
+426,HC51,Line number of parent/caretaker,{0.0: 'Not in household'}
+427,HC52,Read consent statement - hemoglobin,"{1.0: 'Granted', 2.0: 'Refused', 3.0: 'Not present/other', 7.0: 'Respondent/ parent granted but no signature'}"
+428,HC53,Hemoglobin level (g/dl - 1 decimal),"{994.0: 'Not present', 995.0: 'Refused', 996.0: 'Other'}"
+429,HC55,Result of measurement - hemoglobin,"{0.0: 'Measured', 3.0: 'Not present/other', 4.0: 'Refused', 6.0: 'Other'}"
+430,HC56,Hemoglobin level adjusted for altitude (g/dl - 1 decimal),{997.0: 'Inconsistent'}
+431,HC57,Anemia level,"{1.0: 'Severe', 2.0: 'Moderate', 3.0: 'Mild', 4.0: 'Not anemic'}"
+432,HC58,NA - Agrees to referral - anemia,"{0.0: 'No', 1.0: 'Yes'}"
+433,HC60,Mother's line number (woman's questionnaire),"{993.0: 'Mother not de facto', 994.0: ""Incomplete woman's interview"", 995.0: 'Not in household'}"
+434,HC61,Mother's highest educational level,"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+435,HC62,Mother's highest year of education,"{98.0: ""Don't know""}"
+436,HC63,Preceding birth interval (months),
+437,HC64,Birth order number,
+438,HC68,Mother's highest educational level (for preliminary and final report),"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+439,HC70,Height/Age standard deviation (new WHO),"{9996.0: 'Height out of plausible limits', 9997.0: 'Age in days out of plausible limits', 9998.0: 'Flagged cases'}"
+440,HC71,Weight/Age standard deviation (new WHO),"{9996.0: 'Height out of plausible limits', 9997.0: 'Age in days out of plausible limits', 9998.0: 'Flagged cases'}"
+441,HC72,Weight/Height standard deviation (new WHO),"{9996.0: 'Height out of plausible limits', 9997.0: 'Age in days out of plausible limits', 9998.0: 'Flagged cases'}"
+442,HC73,BMI standard deviation (new WHO),"{9996.0: 'Height out of plausible limits', 9997.0: 'Age in days out of plausible limits', 9998.0: 'Flagged cases'}"
+443,HC2A,Child's weight in kilograms (1 decimal) - first measurement,"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+444,HC3A,Child's height in centimeters (1 decimal) - first measurement,"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+445,HC15A,Height: lying or standing - first measurement,"{0.0: 'Not measured', 1.0: 'Lying', 2.0: 'Standing'}"
+446,HC2B,NA - Child's weight in kilograms (1 decimal) - re-measurement,"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+447,HC3B,NA - Child's height in centimeters (1 decimal) - re-measurement,"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+448,HC15B,NA - Height: lying or standing - re-measurement,"{0.0: 'Not measured', 1.0: 'Lying', 2.0: 'Standing'}"
+449,HC35,NA - Reason for re-measurement,"{0.0: 'Not remeasured', 1.0: 'Random', 2.0: 'Z-Scores', 3.0: 'Both random & Z-scores'}"
+450,HB0,Index to Household Schedule,
+451,HB1,Man's age in years,
+452,HB2,Man's weight in kilograms (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+453,HB3,Man's height in centimeters (1 decimal),"{9994.0: 'Not present', 9995.0: 'Refused', 9996.0: 'Other'}"
+454,HB4,Height/Age percentile,{9998.0: 'Flagged cases'}
+455,HB5,Height/Age standard deviation,{9998.0: 'Flagged cases'}
+456,HB6,Height/Age percent ref. median,{99998.0: 'Flagged cases'}
+457,HB11,Weight/Height standard deviation (DHS),{9998.0: 'Flagged cases'}
+458,HB12,Weight/Height percent ref. median (DHS),{99998.0: 'Flagged cases'}
+459,HB12A,Weight/Height percent ref. median (Fog),{99998.0: 'Flagged cases'}
+460,HB12B,Weight/Height percent ref. median (WHO),{99998.0: 'Flagged cases'}
+461,HB13,Result of measurement - height/weight,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other'}"
+462,HB21,Fieldworker measurer code,
+463,HB32,Date of birth (CMC),
+464,HB33,Completeness of HB32 information,"{1.0: 'Month and year - information complete', 2.0: 'Month and age - year imputed', 3.0: 'Year and age - month imputed', 4.0: 'Year and age - year ignored', 5.0: 'Year - age/month imputed', 6.0: 'Age - year/month imputed', 7.0: 'Month - age/year imputed', 8.0: 'None - all imputed'}"
+465,HB35,Smoking (cigarettes in last 24 hours),"{0.0: ""Doesn't smoke"", 80.0: '80+', 94.0: 'Smokes pipes, cigars, etc', 98.0: ""Don't know""}"
+466,HB40,Body Mass Index,{9998.0: 'Flagged cases'}
+467,HB41,Rohrer's index,{9998.0: 'Flagged cases'}
+468,HB50,Under age 18,"{1.0: 'Under age 18', 2.0: 'Age 18 or older'}"
+469,HB51,Line number of parent/caretaker,{0.0: 'Not in household'}
+470,HB52,Read consent statement - hemoglobin,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 7.0: 'Respondent/ parent granted but no signature'}"
+471,HB53,Hemoglobin level (g/dl - 1 decimal),"{994.0: 'Not present', 995.0: 'Refused', 996.0: 'Other', 998.0: 'Not tested'}"
+472,HB55,Result of measurement - hemoglobin,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other', 8.0: ""Don't know""}"
+473,HB56,Hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),{997.0: 'Inconsistent'}
+474,HB57,Anemia level,"{1.0: 'Severe', 2.0: 'Moderate', 3.0: 'Mild', 4.0: 'Not anemic'}"
+475,HB58,NA - Agrees to referral - anemia,"{0.0: 'No', 1.0: 'Yes'}"
+476,HB60,Marital status,"{1.0: 'Never in union', 2.0: 'Other'}"
+477,HB61,Read consent statement - HIV,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 6.0: 'Sample not tested/lost/not enough DBS', 7.0: 'Respondent/ parent granted but no signature'}"
+478,HB62,Bar code for HIV blood sample,"{'?': 'Missing', '999992': ""Man's interview incomplete or man is not de-facto"", '999993': 'Sample damaged/insufficient/not found in lab', '999994': 'Refused', '999995': 'Not selected', '999996': 'Other'}"
+479,HB63,Result of measurement - HIV,"{1.0: 'Blood taken', 2.0: 'Not present', 3.0: 'Refused', 4.0: 'Sample not tested/lost/damaged/insufficient', 5.0: 'Not enough DBS to complete protocol', 6.0: 'Other'}"
+480,HB64,Consent for additional tests,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 7.0: 'Respondent/ parent granted but no signature'}"
+481,HB65,Result of man's individual interview,"{1.0: 'Completed', 2.0: 'Not at home', 3.0: 'Postponed', 4.0: 'Refused', 5.0: 'Partly completed', 6.0: 'Incapacitated', 7.0: 'Other'}"
+482,HB66,Man's highest educational level,"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+483,HB67,Man's highest year of education,"{98.0: ""Don't know""}"
+484,HB68,Man's highest educational level (for preliminary and final report),"{0.0: 'No education', 1.0: 'Primary', 2.0: 'Secondary', 3.0: 'Higher', 8.0: ""Don't know""}"
+485,HB69,NA - HIV weight (6 decimals),
+486,HB70,NA - Interviewer that took blood for HIV testing,
+487,HMLIDX,Mosquito Bed Net Designation Number,
+488,HML3,NA - Net observed by interviewer,"{0.0: 'Not seen', 1.0: 'Yes, seen'}"
+489,HML4,NA - Months ago net obtained,"{96.0: 'More than 3 years ago', 98.0: ""Don't know""}"
+490,HML5,NA - Net treated with insecticide when bought,"{0.0: 'No', 1.0: 'Yes', 8.0: ""Don't know""}"
+491,HML6,NA - Net treatment status,"{0.0: 'Not pretreated', 1.0: 'Pretreated, permanent treatment', 2.0: 'Pretreated, requiring future treatment', 3.0: 'Not pretreated, came with kit and treated at home', 4.0: 'Pretreated, treatment type not known', 6.0: 'Other', 8.0: ""Don't know""}"
+492,HML7,Brand of net,"{11.0: 'Dawa Plus', 12.0: 'Duranet', 13.0: 'Interceptor', 14.0: 'Lifenet', 15.0: 'Magnet', 16.0: 'Netprotect', 17.0: 'Olyset', 18.0: 'Permanet', 19.0: 'Royal Sentry', 20.0: 'Yorkool', 26.0: ""Other / don't know brand"", 96.0: 'Other type', 98.0: ""Don't know type""}"
+493,HML8,Net treated since received,"{0.0: 'No', 1.0: 'Yes', 2.0: 'Permanent/LLIN net', 8.0: 'Not sure'}"
+494,HML9,NA - Time since last re-treatment (months),"{95.0: '25+ months ago', 96.0: 'More than 3 years ago', 98.0: ""Don't know""}"
+495,HML10,Insecticide-Treated Net (ITN),"{0.0: ""No, don't know"", 1.0: 'Yes'}"
+496,HML11,Number of persons who slept under this net,{5.0: '5+'}
+497,HML21,Someone slept under this net last night,"{0.0: 'No', 1.0: 'Yes', 8.0: 'Not sure (DK)'}"
+498,HMLA,Line number of person who slept in this net,{0.0: 'No one'}
+499,HMLB,Line number of person who slept in this net,
+500,HMLC,Line number of person who slept in this net,
+501,HMLD,Line number of person who slept in this net,
+502,HMLE,NA - Line number of person who slept in this net,
+503,HML22,"NA - Obtained net from campaign, antenatal or immunization visit","{0.0: 'No', 1.0: 'Yes, campaign', 2.0: 'Yes, antenatal care', 3.0: 'Yes, immunization visit'}"
+504,HML23,Place where net was obtained,"{10.0: 'Government health facility', 11.0: 'Government', 20.0: 'Private health facility', 30.0: 'Other sources', 31.0: 'Pharmacy', 32.0: 'Shop/market', 33.0: 'CHW', 34.0: 'Religious institution', 35.0: 'School', 36.0: 'NGO or Trust', 96.0: 'Other', 98.0: ""Don't know""}"
+505,HMHIDX,Index to Household Schedule,
+506,HML12,Type of Mosquito Bed Net(s) person slept under last night,"{0.0: 'Did not sleep under a net', 1.0: 'Only treated (ITN) nets', 2.0: 'Both treated (ITN) and untreated nets', 3.0: 'Only untreated nets'}"
+507,HML13,Net Designation Number (HMLIDX) for 1st net person slept under last night,{0.0: 'Did not sleep under net'}
+508,HML14,Net Designation Number (HMLIDX) for 2nd net person slept under last night,
+509,HML15,NA - Net Designation Number (HMLIDX) for 3rd net person slept under last night,
+510,HML16,Corrected age from Individual file,"{97.0: '97+', 98.0: ""Don't know""}"
+511,HML16A,NA - Age in months (for children),
+512,HML17,Flag for age from Individual file,"{0.0: 'No data from Individual file', 1.0: 'Month and year - information complete', 2.0: 'Month and age - year imputed', 3.0: 'Year and age - month imputed', 4.0: 'Year and age - year ignored', 5.0: 'Year - age/month imputed', 6.0: 'Age - year/month imputed', 7.0: 'Month - age/year imputed', 8.0: 'None - all imputed'}"
+513,HML18,Pregnancy status from Individual file,"{0.0: ""Not pregnant, don't know"", 1.0: 'Pregnant'}"
+514,HML19,Person slept under an ever-treated net,"{0.0: 'No', 1.0: 'Yes'}"
+515,HML20,Person slept under an LLIN net,"{0.0: 'No', 1.0: 'Yes'}"
+516,HML30,NA - Line number of parent/caretaker (for malaria testing),{0.0: 'Not in household'}
+517,HML31,NA - Read consent statement for malaria,"{1.0: 'Granted', 2.0: 'Parent/other responsible refused', 3.0: 'Respondent refused', 4.0: 'Adult/parent not present', 5.0: 'Minor not present', 7.0: 'Respondent/ parent granted but no signature'}"
+518,HML32,NA - Final result of malaria from blood smear test,"{0.0: 'Negative', 1.0: 'Positive', 6.0: 'Test undetermined', 7.0: 'Sample not found in lab database'}"
+519,HML32A,NA - Presence of species: falciparum (Pf),"{0.0: 'No', 1.0: 'Yes'}"
+520,HML32B,NA - Presence of species: malariae (Pm),"{0.0: 'No', 1.0: 'Yes'}"
+521,HML32C,NA - Presence of species: ovale (Po),"{0.0: 'No', 1.0: 'Yes'}"
+522,HML32D,NA - Presence of species: vivax (Pv),"{0.0: 'No', 1.0: 'Yes'}"
+523,HML32E,NA - Presence of species: CS,"{0.0: 'No', 1.0: 'Yes'}"
+524,HML32F,NA - Presence of species: CS,"{0.0: 'No', 1.0: 'Yes'}"
+525,HML32G,NA - Presence of species: CS,"{0.0: 'No', 1.0: 'Yes'}"
+526,HML33,NA - Result of malaria measurement,"{0.0: 'Measured', 3.0: 'Not present', 4.0: 'Refused', 6.0: 'Other'}"
+527,HML34,Bar code for blood smear sample,"{'?': 'Missing', '99993': 'Sample damaged/insufficient/not found in lab', '99994': 'Not present', '99995': 'Refused', '99996': 'Other'}"
+528,HML35,NA - Result of malaria rapid test,"{0.0: 'Negative', 1.0: 'Positive'}"
+529,HML36,NA - Fieldworker measurer code for malaria,
